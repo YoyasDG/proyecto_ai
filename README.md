@@ -14,9 +14,8 @@ img/            Fotos, logos y patrón
 
 ## Antes de publicar
 
-1. **WhatsApp:** en `js/main.js`, escribe el número en `const WHATSAPP = ""` con código de país y sin espacios (ej. `"5215512345678"`). Mientras esté vacío, los botones llevan a Instagram.
-2. **Dirección:** en `index.html`, busca `TODO` en el footer y escribe la dirección del estudio.
-3. **Tipografía:** la guía usa Contralto Small, que no está en Google Fonts. Se usa Marcellus como sustituto. Si tienes los archivos de Contralto (.woff2), ponlos en `fonts/`, agrega un `@font-face` en `css/styles.css` y cambia `--font-display`.
+1. **WhatsApp, dirección y redes:** ya están configurados. El número está en `js/main.js` (`const WHATSAPP`) y la dirección, Instagram y Facebook en el footer de `index.html`.
+2. **Tipografía:** la guía usa Contralto Small, que no está en Google Fonts. Se usa Marcellus como sustituto. Si tienes los archivos de Contralto (.woff2), ponlos en `fonts/`, agrega un `@font-face` en `css/styles.css` y cambia `--font-display`.
 
 ## Publicar en GitHub Pages
 

@@ -3,7 +3,7 @@
    Escribe aquí el número de WhatsApp del estudio con código
    de país y sin espacios ni signos. Ej. México: "5215512345678"
    ========================================================== */
-const WHATSAPP = "";
+const WHATSAPP = "523317483014";
 const WHATSAPP_MSG = "¡Hola Möov! Me gustaría agendar una clase.";
 
 // Enlaces de WhatsApp
@@ -11,7 +11,7 @@ document.querySelectorAll(".js-wa").forEach((a) => {
   if (WHATSAPP) {
     a.href = `https://wa.me/${WHATSAPP}?text=${encodeURIComponent(WHATSAPP_MSG)}`;
   } else {
-    a.href = "https://www.instagram.com/moovaerialstudio/";
+    a.href = "https://www.instagram.com/moov_aerialstudio/";
   }
 });
 
