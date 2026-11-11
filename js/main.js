@@ -68,3 +68,12 @@ const io = new IntersectionObserver(
   { threshold: 0.12, rootMargin: "0px 0px -40px 0px" }
 );
 document.querySelectorAll(".reveal").forEach((el) => io.observe(el));
+
+// Logo y "Volver arriba": regresan al inicio de la página
+document.querySelectorAll('a[href="#top"]').forEach((a) =>
+  a.addEventListener("click", (e) => {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    history.replaceState(null, "", location.pathname);
+  })
+);
